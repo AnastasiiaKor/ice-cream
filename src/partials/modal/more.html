@@ -1,7 +1,7 @@
 
 <div class="backdrop is-hidden" data-modal-video>
     <div class="modal modal-video">
-        <button type="button" class="modal-close-btn" data-modal-close-video onClick="refreshPage()">
+        <button type="button" class="modal-close-btn" data-modal-close-video >
             <svg class="modal-close-icon" width="20px" height="20px">
                 <use href="./img/icons.svg#icon-close"></use>
             </svg>
@@ -10,16 +10,17 @@
         <h3 class="modal-video-title-h3">How it’s made?</h3>
 </div>
         <div class="modal-video-link">
-                  <iframe width="560" height="150" src="https://www.youtube.com/embed/_Zt1EuIEhvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe class='youtube' width="560" height="150" src="https://www.youtube.com/embed/_Zt1EuIEhvw?rel=0&showinfo=0&autoplay=1" title="YouTube video player"
+       frameborder="0"
+       autoplay
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; "
+       allowfullscreen
+       allow-popups-to-escape-sandbox></iframe>
         </div>
 
         <p class="modal-video-paragraph">From the dawn of human civilizations, ice cream recipes started their slow and steady rate of improvement and refinement. Now that we have access to the technical wonders of modern civilization, ice cream can be produced by anyone. Find out how.</p>
     </div>
   </div>
 </div>
-<script>
-    function refreshPage(){
-        window.location.reload();
-    } 
-</script>
+
 
